@@ -1,6 +1,6 @@
 {
   "name": "electron-app-name",
-  "productName": "App-name",
+  "productName": "注掌柜.改图",
   "version": "1.0.0",
   "description": "My Electron application description",
   "main": ".webpack/main",

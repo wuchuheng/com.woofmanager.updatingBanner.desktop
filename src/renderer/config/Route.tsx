@@ -1,13 +1,18 @@
 import { HashRouter, Route, Routes } from 'react-router-dom';
-import { Home } from '../pages/Home/Home';
 import React from 'react';
-import { About } from '../pages/About/About';
+import { MainLayout } from '../layout/Maylayout';
+import { Home } from '../pages/Home/Home';
+import { ChangingBanner } from '../pages/ChangingBanner/ChangingBanner';
+import { Package } from '../pages/Package/Package';
 
 export const RouteRender: React.FC = () => (
   <HashRouter>
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
+      <Route path="/" element={<MainLayout />}>
+        <Route path="" element={<Home />} />
+        <Route path="changingBanner" element={<ChangingBanner />} />
+        <Route path="package" element={<Package />} />
+      </Route>
     </Routes>
   </HashRouter>
 );

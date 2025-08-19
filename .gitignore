@@ -4,3 +4,4 @@ out/
 *.sqlite
 cache/
 logs/
+.webpack/

@@ -179,6 +179,11 @@ const zhTranslations = {
       backToHome: '返回首页',
     },
   },
+  layout: {
+    account: '账户',
+    package: '数据包',
+    changingBanner: '改图',
+  },
 };
 
 // Initialize i18n

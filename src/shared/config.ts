@@ -1,4 +1,4 @@
-import { Welcome } from 'src/main/database/entities/welcom';
+import { Welcome } from '@/main/database/entities/welcom';
 import { BootloadingProgressing } from '../types/electron';
 import { StrictConfig } from './config-utils';
 import { createIpcChannel } from './ipc-channel';
