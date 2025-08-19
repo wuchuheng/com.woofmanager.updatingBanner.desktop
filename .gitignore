@@ -1,0 +1,6 @@
+node_modules/
+dist/
+out/
+*.sqlite
+cache/
+logs/
